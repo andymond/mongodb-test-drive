@@ -1,4 +1,5 @@
 var mongoose = require('mongoose')
+mongoose.connect('mongodb://127.0.0.1/animals')
 var Schema = mongoose.Schema
 
 var animalSchema = new Schema({

@@ -4,8 +4,6 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 var sassMiddleware = require('node-sass-middleware');
-var mongoose = require('mongoose');
-mongoose.connect('mongodb://127.0.0.1/animals')
 
 var indexRouter = require('./routes/index');
 var animalsRouter = require('./routes/animals');
